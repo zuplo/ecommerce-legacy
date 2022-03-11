@@ -1,10 +1,10 @@
 {
   "environmentVariables": {
     "EXAMPLE_SECRET": {
-      "variableType": "Secret"
+      "variableType": "secret"
     },
     "EXAMPLE_CONFIG": {
-      "variableType": "Config"
+      "variableType": "config"
     }
   }
 }

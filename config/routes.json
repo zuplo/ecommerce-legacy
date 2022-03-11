@@ -1,79 +1,14 @@
 {
   "routes": [
     {
-      "path": "/users",
+      "path": "/objects",
       "handler": {
-        "export": "getAll",
-        "module": "$import(./modules/users)"
+        "export": "default",
+        "module": "$import(./modules/handler)"
       },
       "methods": ["GET"],
       "corsPolicy": "anything-goes",
-      "version": "v1",
-      "policies": {
-        "inbound": []
-      }
-    },
-    {
-      "path": "/users/:id",
-      "handler": {
-        "export": "getById",
-        "module": "$import(./modules/users)"
-      },
-      "methods": ["GET"],
-      "corsPolicy": "anything-goes",
-      "version": "v1",
-      "policies": {
-        "inbound": []
-      }
-    },
-    {
-      "path": "/products",
-      "handler": {
-        "export": "getAll",
-        "module": "$import(./modules/products)"
-      },
-      "methods": ["GET"],
-      "corsPolicy": "anything-goes",
-      "version": "v1",
-      "policies": {
-        "inbound": []
-      }
-    },
-    {
-      "path": "/products/:id",
-      "handler": {
-        "export": "getById",
-        "module": "$import(./modules/products)"
-      },
-      "methods": ["GET"],
-      "corsPolicy": "anything-goes",
-      "version": "v1",
-      "policies": {
-        "inbound": []
-      }
-    },
-    {
-      "path": "/transactions",
-      "handler": {
-        "export": "getAll",
-        "module": "$import(./modules/transactions)"
-      },
-      "methods": ["GET"],
-      "corsPolicy": "anything-goes",
-      "version": "v1",
-      "policies": {
-        "inbound": []
-      }
-    },
-    {
-      "path": "/transactions/:id",
-      "handler": {
-        "export": "getById",
-        "module": "$import(./modules/transactions)"
-      },
-      "methods": ["GET"],
-      "corsPolicy": "anything-goes",
-      "version": "v1",
+      "version": "none",
       "policies": {
         "inbound": []
       }
