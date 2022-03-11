@@ -1,0 +1,8 @@
+{
+  "description": "A simple test that invoked GET on the hello-world example",
+  "pathname": "/objects?type=products",
+  "method": "GET",
+  "headers": {
+    "accept": "application/json"
+  }
+}

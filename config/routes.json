@@ -1,0 +1,35 @@
+{
+  "routes": [
+    {
+      "label": "What zup?",
+      "path": "/objects",
+      "handler": {
+        "module": "$import(@zuplo/runtime)",
+        "export": "urlRewriteHandler",
+        "options": {
+          "rewritePattern": "https://ecommerce-api.zuplo.io/${query.type}${query.id ? '/' + query.id : \"\"}"
+        }
+      },
+      "methods": [
+        "GET",
+        "POST"
+      ],
+      "corsPolicy": "anything-goes",
+      "version": "none",
+      "policies": {
+        "inbound": []
+      }
+    }
+  ],
+  "versions": [
+    {
+      "name": "none",
+      "pathPrefix": ""
+    },
+    {
+      "name": "v1",
+      "pathPrefix": "/v1"
+    }
+  ],
+  "policies": []
+}
