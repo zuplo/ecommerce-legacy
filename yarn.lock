@@ -443,13 +443,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zuplo/debug@npm:^3.83.0":
-  version: 3.83.0
-  resolution: "@zuplo/debug@npm:3.83.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fdebug%2F3.83.0%2Fb13a542af7a30589a39315b0be8261e3447903ea1ac2ef3461557b8042757665"
-  checksum: b2b766374067200e13a2b5acc4f82832a7ebaaab284313d726e7f5d265bd001f33cdf347dbbf3d4219be90a381b2e307be00ecb33ec3942004c5d8e95b249217
-  languageName: node
-  linkType: hard
-
 "@zuplo/internal@npm:^3.142.0":
   version: 3.142.0
   resolution: "@zuplo/internal@npm:3.142.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Finternal%2F3.142.0%2Fc66892b50b22e7bd928b81c7ded97e15b9a78bd880aaa30dd2a735aad40562b6"
@@ -458,17 +451,6 @@ __metadata:
     path-to-regexp: ^6.2.0
     ts-custom-error: ^3.2.0
   checksum: 85a37bb2c9b483dd2c8c61385a41196b50fc44617abbddd32dced6f6b5d0872d8b08a29ba7d152565f66e127fb7ca2804ecaf890da46be1e208526df858b38b5
-  languageName: node
-  linkType: hard
-
-"@zuplo/internal@npm:^3.83.0":
-  version: 3.83.0
-  resolution: "@zuplo/internal@npm:3.83.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Finternal%2F3.83.0%2F1e204f816b06a9d02155cfb9f21713439e84d6efcfd842e3d6c50b8d615963d7"
-  dependencies:
-    ajv: ^8.10.0
-    path-to-regexp: ^6.2.0
-    ts-custom-error: ^3.2.0
-  checksum: 637c0dd009935c944c951a74d78b1462495c25490749a92da73c6370683359cc281905ca5042a639b182237ad33501c364ba42b81109a57b230fd4bc51cd0a4a
   languageName: node
   linkType: hard
 
@@ -485,22 +467,6 @@ __metadata:
     regenerator-runtime: ^0.13.9
     tslib: ^2.3.1
   checksum: 74242283a4f416fe1aa8b0a00445c31e81b26c437fda5d43b70007af9a7d4997bca6ef0f2e5ad4c7bd9807f9a54745de912e23a2891c2f2eb8afa2a68082dc20
-  languageName: node
-  linkType: hard
-
-"@zuplo/runtime@npm:^3.82.0":
-  version: 3.83.0
-  resolution: "@zuplo/runtime@npm:3.83.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fruntime%2F3.83.0%2F8df09ba1d8e033cc0bee924ae29b3327b117212badc68f94cd6ceee47bed2c4d"
-  dependencies:
-    "@zuplo/debug": ^3.83.0
-    "@zuplo/internal": ^3.83.0
-    ajv: ^8.10.0
-    jose: ^4.5.0
-    lru-cache: ^6.0.0
-    path-to-regexp: ^6.2.0
-    regenerator-runtime: ^0.13.9
-    tslib: ^2.3.1
-  checksum: cbb5eade672546da09cfc8d7853c30db5d553c2d03fc26450742d9df82fb20bcd1bda061954a80590701f9631118fc851437ac6f80d0811461fbe14ff6ed427a
   languageName: node
   linkType: hard
 
@@ -563,18 +529,6 @@ __metadata:
     clean-stack: ^2.0.0
     indent-string: ^4.0.0
   checksum: 1101a33f21baa27a2fa8e04b698271e64616b886795fd43c31068c07533c7b3facfcaf4e9e0cab3624bd88f729a592f1c901a1a229c9e490eafce411a8644b79
-  languageName: node
-  linkType: hard
-
-"ajv@npm:^8.10.0":
-  version: 8.10.0
-  resolution: "ajv@npm:8.10.0"
-  dependencies:
-    fast-deep-equal: ^3.1.1
-    json-schema-traverse: ^1.0.0
-    require-from-string: ^2.0.2
-    uri-js: ^4.2.2
-  checksum: 3594728ef1e31219ef97bfacb203d0d72db8ad5c35d6d0578e38ee453e4537c2bf927dad144bb84b0c893f661d71b58337d4643e8ee2f2a6e1d63b041c92fe82
   languageName: node
   linkType: hard
 
@@ -1194,7 +1148,7 @@ __metadata:
   resolution: "ecommerce-legacy@workspace:."
   dependencies:
     "@zuplo/core": ^3.142.0
-    "@zuplo/runtime": ^3.82.0
+    "@zuplo/runtime": ^3.142.0
     husky: ^7.0.4
   languageName: unknown
   linkType: soft
@@ -2273,7 +2227,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jose@npm:^4.5.0, jose@npm:^4.6.0":
+"jose@npm:^4.6.0":
   version: 4.6.0
   resolution: "jose@npm:4.6.0"
   checksum: 7f48cb030c9e8586e825ad5cc71e792f7b71b420afd3c45913e0719fd4abe6a756179c732604d42fbbb53c64b63f78818669599eeef11c988c0c34dd1178fe43
