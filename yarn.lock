@@ -329,9 +329,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zuplo/common@npm:^3.222.0":
-  version: 3.226.0
-  resolution: "@zuplo/common@npm:3.226.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcommon%2F3.226.0%2Fd014f278f96ea2ed31180e0f4d7283cbcc00fa4e57c3bf6d78214a692554b2f8"
+"@zuplo/common@npm:^3.245.0":
+  version: 3.245.0
+  resolution: "@zuplo/common@npm:3.245.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcommon%2F3.245.0%2F0413e5763bc005c253ad02f453ef4a4c3d6bd0328c53d083a96f58dd8342ac43"
   dependencies:
     "@google-cloud/storage": ^5.19.2
     "@sentry/node": ^6.19.6
@@ -344,23 +344,23 @@ __metadata:
     node-fetch-cjs: ^3.2.3
     pino: ^7.10.0
     pino-pretty: ^7.6.1
-  checksum: 3dd97cacb086e757b6a8ecabc1bd4bf99bdd522ab39330954d0b88e73846eb73b52bec4091ab9dec4e63ceb3418ba8d91eaeb9ac20805c5afeceaea0c46ae697
+  checksum: 38f421c2fff8567dff9c84e474ebbf77ed016417de912116e542c141a5528e3abc2953528533ac72fa2908452261f6f19e64f23bf849721b1684da3f38a94b36
   languageName: node
   linkType: hard
 
-"@zuplo/core@npm:^3.222.0":
-  version: 3.222.0
-  resolution: "@zuplo/core@npm:3.222.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcore%2F3.222.0%2F224ab9efc60bbe3dd1c4f6e5e42129bae893c4ddbab727a92da57528fcf23906"
+"@zuplo/core@npm:^3.245.0":
+  version: 3.245.0
+  resolution: "@zuplo/core@npm:3.245.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcore%2F3.245.0%2F64ff4e9f3ed05eaf5a3f4c529b8628412b3c4df72ce291e432faa221bea666a4"
   dependencies:
-    "@zuplo/common": ^3.222.0
-    "@zuplo/internal": ^3.222.0
-    "@zuplo/runtime": ^3.222.0
+    "@zuplo/common": ^3.245.0
+    "@zuplo/internal": ^3.245.0
+    "@zuplo/runtime": ^3.245.0
     ajv: ^8.11.0
     arg: ^5.0.1
     chalk: ^4.1.2
     dotenv: ^16.0.0
     ejs: ^3.1.6
-    esbuild: ^0.14.34
+    esbuild: ^0.14.36
     esbuild-plugin-alias: ^0.2.1
     execa: ^5.1.1
     glob: ^7.2.0
@@ -380,42 +380,42 @@ __metadata:
     typescript: 4.5.5
   bin:
     zuplo: ./bin.js
-  checksum: 3fa9abbab9a6d9e240bbbba3fede64848ae5fd50cdb2bfbdcf3db6fe779f8e08dee9e9992862e9c7616089832278ba42aeebeb2881420748effdaef0286872a6
+  checksum: cf6d0166cdbc27c6c5803fc2d794255e4c8b42d71a007f8dbaa5c92492bdd710139306e3cd4b540e544db16494bace51d0e2f827a42a69a8617573aedc551d13
   languageName: node
   linkType: hard
 
-"@zuplo/debug@npm:^3.222.0":
-  version: 3.222.0
-  resolution: "@zuplo/debug@npm:3.222.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fdebug%2F3.222.0%2F966b3b8bad958b6cfbc59a79795ef814640ab4db02d54d1db0bb23b2908b340c"
-  checksum: 7d44e905c7b0411b44cf19b01d021bad98022d97ece21462bf936e959b94e45d96bfdab30856b5f133a3d6956375d61fb85c8a6000df9ddee3bb5ac21a38dd4d
+"@zuplo/debug@npm:^3.245.0":
+  version: 3.245.0
+  resolution: "@zuplo/debug@npm:3.245.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fdebug%2F3.245.0%2Fb8a4f8603acc8ace235594d8cc5da1721784d9891c91193187a31ff2816f4693"
+  checksum: b1ba1f0565dcafd3a7e9aeaeb75e1267a7a973e7ec8ff7e671b14929c281ad6a21ee35dc30f357097e9413a6e8942d190c63a9dbcca287dd083ff1f7f48428cc
   languageName: node
   linkType: hard
 
-"@zuplo/internal@npm:^3.222.0":
-  version: 3.222.0
-  resolution: "@zuplo/internal@npm:3.222.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Finternal%2F3.222.0%2F91c63bbc345d8fdd0afacbd7dba1a9a549127773a5e8f69db713c832100462c0"
+"@zuplo/internal@npm:^3.245.0":
+  version: 3.245.0
+  resolution: "@zuplo/internal@npm:3.245.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Finternal%2F3.245.0%2F019fe0177eb22069731ee0f4b07b109c69fa6985dc6619270e5e5e79ed452ac4"
   dependencies:
     ajv: ^8.11.0
     ajv-formats: ^2.1.1
     path-to-regexp: ^6.2.0
     ts-custom-error: ^3.2.0
-  checksum: 718173ee981ade3bb0445d97783f47da462468065a65de054a13e4bef5d2a279b941a7b1f3e142cae8f3c963729bffa31bf9cb1dc816ec2600a13a6c429d318a
+  checksum: 024e95b093bbf14bbe42f779663e5ac5efae8364bcbe74c93cb29b9acbe906d6a7c357748a1f92ee5877be9cb91c607c5d3170284570245f01181458b61663a6
   languageName: node
   linkType: hard
 
-"@zuplo/runtime@npm:^3.222.0":
-  version: 3.222.0
-  resolution: "@zuplo/runtime@npm:3.222.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fruntime%2F3.222.0%2F8b436832a50cf0d712d578b634e86dc3e487c35fd853300a4c711f0d560447c8"
+"@zuplo/runtime@npm:^3.245.0":
+  version: 3.245.0
+  resolution: "@zuplo/runtime@npm:3.245.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fruntime%2F3.245.0%2F2e2ab12c594503b3c1650b53f5cf569108b1830c7bfaa0ecd59a67e1e56abf03"
   dependencies:
-    "@zuplo/debug": ^3.222.0
-    "@zuplo/internal": ^3.222.0
+    "@zuplo/debug": ^3.245.0
+    "@zuplo/internal": ^3.245.0
     ajv: ^8.11.0
-    jose: ^4.6.0
+    jose: ^4.6.1
     lru-cache: ^6.0.0
     path-to-regexp: ^6.2.0
     regenerator-runtime: ^0.13.9
     tslib: ^2.3.1
-  checksum: 5f5e874519ff0400bd50f146a9b443a609334138df2a847bfe6e4d7252ede845c6c07776c76cd72c37958e6aa0ac0fb24e149f2a20254a8ebe8ff439ea4f6b99
+  checksum: c47d189fc1ec333b13e438cb75623975909d756e6b12267745baa993c2b35449c5d69baf5c065e058b6f0c62b0549af03eada81c3654539c4fc1aacae7ea5276
   languageName: node
   linkType: hard
 
@@ -1110,8 +1110,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ecommerce-legacy@workspace:."
   dependencies:
-    "@zuplo/core": ^3.222.0
-    "@zuplo/runtime": ^3.222.0
+    "@zuplo/core": ^3.245.0
+    "@zuplo/runtime": ^3.245.0
     husky: ^7.0.4
   languageName: unknown
   linkType: soft
@@ -1232,114 +1232,114 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-android-64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-android-64@npm:0.14.36"
+"esbuild-android-64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-android-64@npm:0.14.38"
   conditions: os=android & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-android-arm64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-android-arm64@npm:0.14.36"
+"esbuild-android-arm64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-android-arm64@npm:0.14.38"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"esbuild-darwin-64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-darwin-64@npm:0.14.36"
+"esbuild-darwin-64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-darwin-64@npm:0.14.38"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-darwin-arm64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-darwin-arm64@npm:0.14.36"
+"esbuild-darwin-arm64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-darwin-arm64@npm:0.14.38"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"esbuild-freebsd-64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-freebsd-64@npm:0.14.36"
+"esbuild-freebsd-64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-freebsd-64@npm:0.14.38"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-freebsd-arm64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-freebsd-arm64@npm:0.14.36"
+"esbuild-freebsd-arm64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-freebsd-arm64@npm:0.14.38"
   conditions: os=freebsd & cpu=arm64
   languageName: node
   linkType: hard
 
-"esbuild-linux-32@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-linux-32@npm:0.14.36"
+"esbuild-linux-32@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-linux-32@npm:0.14.38"
   conditions: os=linux & cpu=ia32
   languageName: node
   linkType: hard
 
-"esbuild-linux-64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-linux-64@npm:0.14.36"
+"esbuild-linux-64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-linux-64@npm:0.14.38"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-linux-arm64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-linux-arm64@npm:0.14.36"
+"esbuild-linux-arm64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-linux-arm64@npm:0.14.38"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"esbuild-linux-arm@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-linux-arm@npm:0.14.36"
+"esbuild-linux-arm@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-linux-arm@npm:0.14.38"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"esbuild-linux-mips64le@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-linux-mips64le@npm:0.14.36"
+"esbuild-linux-mips64le@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-linux-mips64le@npm:0.14.38"
   conditions: os=linux & cpu=mips64el
   languageName: node
   linkType: hard
 
-"esbuild-linux-ppc64le@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-linux-ppc64le@npm:0.14.36"
+"esbuild-linux-ppc64le@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-linux-ppc64le@npm:0.14.38"
   conditions: os=linux & cpu=ppc64
   languageName: node
   linkType: hard
 
-"esbuild-linux-riscv64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-linux-riscv64@npm:0.14.36"
+"esbuild-linux-riscv64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-linux-riscv64@npm:0.14.38"
   conditions: os=linux & cpu=riscv64
   languageName: node
   linkType: hard
 
-"esbuild-linux-s390x@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-linux-s390x@npm:0.14.36"
+"esbuild-linux-s390x@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-linux-s390x@npm:0.14.38"
   conditions: os=linux & cpu=s390x
   languageName: node
   linkType: hard
 
-"esbuild-netbsd-64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-netbsd-64@npm:0.14.36"
+"esbuild-netbsd-64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-netbsd-64@npm:0.14.38"
   conditions: os=netbsd & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-openbsd-64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-openbsd-64@npm:0.14.36"
+"esbuild-openbsd-64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-openbsd-64@npm:0.14.38"
   conditions: os=openbsd & cpu=x64
   languageName: node
   linkType: hard
@@ -1351,58 +1351,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-sunos-64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-sunos-64@npm:0.14.36"
+"esbuild-sunos-64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-sunos-64@npm:0.14.38"
   conditions: os=sunos & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-windows-32@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-windows-32@npm:0.14.36"
+"esbuild-windows-32@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-windows-32@npm:0.14.38"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"esbuild-windows-64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-windows-64@npm:0.14.36"
+"esbuild-windows-64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-windows-64@npm:0.14.38"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"esbuild-windows-arm64@npm:0.14.36":
-  version: 0.14.36
-  resolution: "esbuild-windows-arm64@npm:0.14.36"
+"esbuild-windows-arm64@npm:0.14.38":
+  version: 0.14.38
+  resolution: "esbuild-windows-arm64@npm:0.14.38"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.14.34":
-  version: 0.14.36
-  resolution: "esbuild@npm:0.14.36"
+"esbuild@npm:^0.14.36":
+  version: 0.14.38
+  resolution: "esbuild@npm:0.14.38"
   dependencies:
-    esbuild-android-64: 0.14.36
-    esbuild-android-arm64: 0.14.36
-    esbuild-darwin-64: 0.14.36
-    esbuild-darwin-arm64: 0.14.36
-    esbuild-freebsd-64: 0.14.36
-    esbuild-freebsd-arm64: 0.14.36
-    esbuild-linux-32: 0.14.36
-    esbuild-linux-64: 0.14.36
-    esbuild-linux-arm: 0.14.36
-    esbuild-linux-arm64: 0.14.36
-    esbuild-linux-mips64le: 0.14.36
-    esbuild-linux-ppc64le: 0.14.36
-    esbuild-linux-riscv64: 0.14.36
-    esbuild-linux-s390x: 0.14.36
-    esbuild-netbsd-64: 0.14.36
-    esbuild-openbsd-64: 0.14.36
-    esbuild-sunos-64: 0.14.36
-    esbuild-windows-32: 0.14.36
-    esbuild-windows-64: 0.14.36
-    esbuild-windows-arm64: 0.14.36
+    esbuild-android-64: 0.14.38
+    esbuild-android-arm64: 0.14.38
+    esbuild-darwin-64: 0.14.38
+    esbuild-darwin-arm64: 0.14.38
+    esbuild-freebsd-64: 0.14.38
+    esbuild-freebsd-arm64: 0.14.38
+    esbuild-linux-32: 0.14.38
+    esbuild-linux-64: 0.14.38
+    esbuild-linux-arm: 0.14.38
+    esbuild-linux-arm64: 0.14.38
+    esbuild-linux-mips64le: 0.14.38
+    esbuild-linux-ppc64le: 0.14.38
+    esbuild-linux-riscv64: 0.14.38
+    esbuild-linux-s390x: 0.14.38
+    esbuild-netbsd-64: 0.14.38
+    esbuild-openbsd-64: 0.14.38
+    esbuild-sunos-64: 0.14.38
+    esbuild-windows-32: 0.14.38
+    esbuild-windows-64: 0.14.38
+    esbuild-windows-arm64: 0.14.38
   dependenciesMeta:
     esbuild-android-64:
       optional: true
@@ -1446,7 +1446,7 @@ __metadata:
       optional: true
   bin:
     esbuild: bin/esbuild
-  checksum: 18c0caab3350b90d80f5b134e6c04930b8010aac859227bdf226029e04a42fcb6dce6a6cf92b36a9bd4910d1b152b1c33bc56a629aa05f4eb8e10ec5f5a2ee2b
+  checksum: d7523a36bd28016c010829c527386dbc0c6b9f514920abf5ac8003f346665161aa61026fd6822c5091fc1c1af52fe26c9281a81740fc06f2994cdbb7c2880297
   languageName: node
   linkType: hard
 
@@ -2190,10 +2190,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jose@npm:^4.6.0":
-  version: 4.6.0
-  resolution: "jose@npm:4.6.0"
-  checksum: 7f48cb030c9e8586e825ad5cc71e792f7b71b420afd3c45913e0719fd4abe6a756179c732604d42fbbb53c64b63f78818669599eeef11c988c0c34dd1178fe43
+"jose@npm:^4.6.1":
+  version: 4.7.0
+  resolution: "jose@npm:4.7.0"
+  checksum: ebe0e861036023706df84b786401b5b56b6cb0da8e3ff73d9b086f73932af1c93c610b6bef5db3c3efb32e1ea96cd7e7975a6530f9560e0d356a1057770abcdf
   languageName: node
   linkType: hard
 
