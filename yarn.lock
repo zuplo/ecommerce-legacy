@@ -5,7 +5,7 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@apidevtools/json-schema-ref-parser@npm:9.0.9":
+"@apidevtools/json-schema-ref-parser@npm:9.0.9, @apidevtools/json-schema-ref-parser@npm:^9.0.9":
   version: 9.0.9
   resolution: "@apidevtools/json-schema-ref-parser@npm:9.0.9"
   dependencies:
@@ -64,9 +64,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@google-cloud/storage@npm:^5.19.2":
-  version: 5.19.2
-  resolution: "@google-cloud/storage@npm:5.19.2"
+"@google-cloud/storage@npm:^5.19.3":
+  version: 5.19.4
+  resolution: "@google-cloud/storage@npm:5.19.4"
   dependencies:
     "@google-cloud/paginator": ^3.0.7
     "@google-cloud/projectify": ^2.0.0
@@ -93,7 +93,7 @@ __metadata:
     stream-events: ^1.0.4
     teeny-request: ^7.1.3
     xdg-basedir: ^4.0.0
-  checksum: d88d7041645a73b18e61f80d3d136049da02dd26e4f1f08136c53e1bb8eef7ccbe75694c62111320332ac8ae1fae93231a6039f0785d6381fea235833d77f762
+  checksum: 9e0a26c7b185362b25b5ee3b470cd918ab8f760fedaa9860e845070265d5f083d36e1a34a06b6b02e025ae811b5c8abe93f71f3ca8c482eba75edb85e2df7cac
   languageName: node
   linkType: hard
 
@@ -329,11 +329,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@zuplo/common@npm:^3.245.0":
-  version: 3.245.0
-  resolution: "@zuplo/common@npm:3.245.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcommon%2F3.245.0%2F0413e5763bc005c253ad02f453ef4a4c3d6bd0328c53d083a96f58dd8342ac43"
+"@zuplo/common@npm:^3.317.0":
+  version: 3.319.0
+  resolution: "@zuplo/common@npm:3.319.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcommon%2F3.319.0%2F796dae009207aad6c30094950a1f986dd448226deb6936612db56edba434368e"
   dependencies:
-    "@google-cloud/storage": ^5.19.2
+    "@google-cloud/storage": ^5.19.3
     "@sentry/node": ^6.19.6
     "@sentry/tracing": ^6.19.6
     fastify-jwt: ^4.1.3
@@ -344,23 +344,25 @@ __metadata:
     node-fetch-cjs: ^3.2.3
     pino: ^7.10.0
     pino-pretty: ^7.6.1
-  checksum: 38f421c2fff8567dff9c84e474ebbf77ed016417de912116e542c141a5528e3abc2953528533ac72fa2908452261f6f19e64f23bf849721b1684da3f38a94b36
+  checksum: e74519ba40c10f8f74daa4e2a12e9d53399314a22a96228fed6c024332d557e6ff0aad73ba6d977f6b505468e1623ee07caa289b7a4a50e20fc227e2c2d563de
   languageName: node
   linkType: hard
 
-"@zuplo/core@npm:^3.245.0":
-  version: 3.245.0
-  resolution: "@zuplo/core@npm:3.245.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcore%2F3.245.0%2F64ff4e9f3ed05eaf5a3f4c529b8628412b3c4df72ce291e432faa221bea666a4"
+"@zuplo/core@npm:^3.317.0":
+  version: 3.317.0
+  resolution: "@zuplo/core@npm:3.317.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fcore%2F3.317.0%2F8b37d77d42679ace6c9ad08c6c96c33187c9ebebeeefc24476e9dc094b9032b5"
   dependencies:
-    "@zuplo/common": ^3.245.0
-    "@zuplo/internal": ^3.245.0
-    "@zuplo/runtime": ^3.245.0
+    "@apidevtools/json-schema-ref-parser": ^9.0.9
+    "@zuplo/common": ^3.317.0
+    "@zuplo/internal": ^3.317.0
+    "@zuplo/runtime": ^3.317.0
     ajv: ^8.11.0
+    ajv-formats: ^2.1.1
     arg: ^5.0.1
     chalk: ^4.1.2
     dotenv: ^16.0.0
-    ejs: ^3.1.6
-    esbuild: ^0.14.36
+    ejs: ^3.1.7
+    esbuild: ^0.14.38
     esbuild-plugin-alias: ^0.2.1
     execa: ^5.1.1
     glob: ^7.2.0
@@ -373,49 +375,49 @@ __metadata:
     pino-pretty: ^7.6.1
     prettier: ^2.5.1
     semver: ^7.3.5
-    simple-git: ^3.6.0
+    simple-git: ^3.7.1
     truncate-utf8-bytes: ^1.0.2
     ts-node: ^10.7.0
     tsconfig-paths: ^3.14.1
     typescript: 4.5.5
   bin:
     zuplo: ./bin.js
-  checksum: cf6d0166cdbc27c6c5803fc2d794255e4c8b42d71a007f8dbaa5c92492bdd710139306e3cd4b540e544db16494bace51d0e2f827a42a69a8617573aedc551d13
+  checksum: 46894824908fd5fe4bf6a0895ff87c13bfc9facadde0824930562de10aa96a723eaa3ac19a9c44eab86e87992a2f1eea61ce203441b50f319489cd879b0c06c6
   languageName: node
   linkType: hard
 
-"@zuplo/debug@npm:^3.245.0":
-  version: 3.245.0
-  resolution: "@zuplo/debug@npm:3.245.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fdebug%2F3.245.0%2Fb8a4f8603acc8ace235594d8cc5da1721784d9891c91193187a31ff2816f4693"
-  checksum: b1ba1f0565dcafd3a7e9aeaeb75e1267a7a973e7ec8ff7e671b14929c281ad6a21ee35dc30f357097e9413a6e8942d190c63a9dbcca287dd083ff1f7f48428cc
+"@zuplo/debug@npm:^3.317.0":
+  version: 3.319.0
+  resolution: "@zuplo/debug@npm:3.319.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fdebug%2F3.319.0%2F4918621cbc1fbd92ce4f54a41df277821cd857f01951e11aa6fc641358f967dc"
+  checksum: 018a4d2636fd519be5d0043cd14dc3d1c4c3e5db9f61f75141538e3066120b875607cc833a8eb0188c88dfa6d9cbb0608f2ebc6a7b7422d0ce381e250a44ceab
   languageName: node
   linkType: hard
 
-"@zuplo/internal@npm:^3.245.0":
-  version: 3.245.0
-  resolution: "@zuplo/internal@npm:3.245.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Finternal%2F3.245.0%2F019fe0177eb22069731ee0f4b07b109c69fa6985dc6619270e5e5e79ed452ac4"
+"@zuplo/internal@npm:^3.317.0":
+  version: 3.319.0
+  resolution: "@zuplo/internal@npm:3.319.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Finternal%2F3.319.0%2Fbbbdcca0448d4d95b724168f5fe2cc63491343f71df7df9627da74046e68f834"
   dependencies:
     ajv: ^8.11.0
     ajv-formats: ^2.1.1
     path-to-regexp: ^6.2.0
     ts-custom-error: ^3.2.0
-  checksum: 024e95b093bbf14bbe42f779663e5ac5efae8364bcbe74c93cb29b9acbe906d6a7c357748a1f92ee5877be9cb91c607c5d3170284570245f01181458b61663a6
+  checksum: 88e29a0c9b2bfd3047f8ffacce9d4e9922bb3a42534bd2c78231b18e3a21c31de06be780afa58933b5289e299f00478bfdb2592582182e5d13c86578d9382aef
   languageName: node
   linkType: hard
 
-"@zuplo/runtime@npm:^3.245.0":
-  version: 3.245.0
-  resolution: "@zuplo/runtime@npm:3.245.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fruntime%2F3.245.0%2F2e2ab12c594503b3c1650b53f5cf569108b1830c7bfaa0ecd59a67e1e56abf03"
+"@zuplo/runtime@npm:^3.317.0":
+  version: 3.317.0
+  resolution: "@zuplo/runtime@npm:3.317.0::__archiveUrl=https%3A%2F%2Fnpm.pkg.github.com%2Fdownload%2F%40zuplo%2Fruntime%2F3.317.0%2F6ccaf0b7dec93bdf31e274cd93975c13de82266b28470f752680e356b11f25c7"
   dependencies:
-    "@zuplo/debug": ^3.245.0
-    "@zuplo/internal": ^3.245.0
+    "@zuplo/debug": ^3.317.0
+    "@zuplo/internal": ^3.317.0
     ajv: ^8.11.0
-    jose: ^4.6.1
+    jose: ^4.7.0
     lru-cache: ^6.0.0
     path-to-regexp: ^6.2.0
     regenerator-runtime: ^0.13.9
-    tslib: ^2.3.1
-  checksum: c47d189fc1ec333b13e438cb75623975909d756e6b12267745baa993c2b35449c5d69baf5c065e058b6f0c62b0549af03eada81c3654539c4fc1aacae7ea5276
+    tslib: ^2.4.0
+  checksum: 14d455802c3cccbeb4d59bfded4038a0b93748555ac7b29e80e6207c7749a218e18bfc1865cb70b48cd68672ecd6425f9afdcefc82e666cb1bae62246a419756
   languageName: node
   linkType: hard
 
@@ -634,14 +636,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"async@npm:0.9.x":
-  version: 0.9.2
-  resolution: "async@npm:0.9.2"
-  checksum: 87dbf129292b8a6c32a4e07f43f462498162aa86f404a7e11f978dbfdf75cfb163c26833684bb07b9d436083cd604cbbf730a57bfcbe436c6ae1ed266cdc56bb
-  languageName: node
-  linkType: hard
-
-"async@npm:^3.1.0":
+"async@npm:^3.1.0, async@npm:^3.2.3":
   version: 3.2.3
   resolution: "async@npm:3.2.3"
   checksum: c4bee57ab2249af3dc83ca3ef9acfa8e822c0d5e5aa41bae3eaf7f673648343cd64ecd7d26091ffd357f3f044428b17b5f00098494b6cf8b6b3e9681f0636ca1
@@ -777,7 +772,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:2.4.2, chalk@npm:^2.4.2":
+"chalk@npm:2.4.2":
   version: 2.4.2
   resolution: "chalk@npm:2.4.2"
   dependencies:
@@ -788,7 +783,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:^4.1.0, chalk@npm:^4.1.2":
+"chalk@npm:^4.0.2, chalk@npm:^4.1.0, chalk@npm:^4.1.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -1110,20 +1105,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "ecommerce-legacy@workspace:."
   dependencies:
-    "@zuplo/core": ^3.245.0
-    "@zuplo/runtime": ^3.245.0
+    "@zuplo/core": ^3.317.0
+    "@zuplo/runtime": ^3.317.0
     husky: ^7.0.4
   languageName: unknown
   linkType: soft
 
-"ejs@npm:^3.1.6":
-  version: 3.1.6
-  resolution: "ejs@npm:3.1.6"
+"ejs@npm:^3.1.7":
+  version: 3.1.7
+  resolution: "ejs@npm:3.1.7"
   dependencies:
-    jake: ^10.6.1
+    jake: ^10.8.5
   bin:
-    ejs: ./bin/cli.js
-  checksum: 81a9cdea0b4ded3b5a4b212b7c17e20bb07468f08394e2d519708d367957a70aef3d282a6d5d38bf6ad313ba25802b9193d4227f29b084d2ee0f28d115141d48
+    ejs: bin/cli.js
+  checksum: fe40764af39955ce8f8b116716fc8b911959946698edb49ecab85df597746c07aa65d5b74ead28a1e2ffa75b0f92d9bedd752f1c29437da6137b3518271e988c
   languageName: node
   linkType: hard
 
@@ -1379,7 +1374,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.14.36":
+"esbuild@npm:^0.14.38":
   version: 0.14.38
   resolution: "esbuild@npm:0.14.38"
   dependencies:
@@ -2176,24 +2171,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jake@npm:^10.6.1":
-  version: 10.8.2
-  resolution: "jake@npm:10.8.2"
+"jake@npm:^10.8.5":
+  version: 10.8.5
+  resolution: "jake@npm:10.8.5"
   dependencies:
-    async: 0.9.x
-    chalk: ^2.4.2
+    async: ^3.2.3
+    chalk: ^4.0.2
     filelist: ^1.0.1
     minimatch: ^3.0.4
   bin:
     jake: ./bin/cli.js
-  checksum: b604c51863260e374ccd62cd0cfe0b659f72cb71beb7d5fb5137dd65b04cf9d5603abd01f9f6eaaac8f4182f396d6cfae01e0b0844c2215c9c1e200572307cf9
+  checksum: 56c913ecf5a8d74325d0af9bc17a233bad50977438d44864d925bb6c45c946e0fee8c4c1f5fe2225471ef40df5222e943047982717ebff0d624770564d3c46ba
   languageName: node
   linkType: hard
 
-"jose@npm:^4.6.1":
-  version: 4.7.0
-  resolution: "jose@npm:4.7.0"
-  checksum: ebe0e861036023706df84b786401b5b56b6cb0da8e3ff73d9b086f73932af1c93c610b6bef5db3c3efb32e1ea96cd7e7975a6530f9560e0d356a1057770abcdf
+"jose@npm:^4.7.0":
+  version: 4.8.1
+  resolution: "jose@npm:4.8.1"
+  checksum: c3e239ccbb07863c28250aedea3e734e4a3b26abc1cbf6acf333381db5ef31e5d1eeced791299076f13b24f41b4b463a7a1e4eaa0079ae0febf9bfd60acb555a
   languageName: node
   linkType: hard
 
@@ -3268,14 +3263,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:^3.6.0":
-  version: 3.6.0
-  resolution: "simple-git@npm:3.6.0"
+"simple-git@npm:^3.7.1":
+  version: 3.7.1
+  resolution: "simple-git@npm:3.7.1"
   dependencies:
     "@kwsites/file-exists": ^1.1.1
     "@kwsites/promise-deferred": ^1.1.1
     debug: ^4.3.3
-  checksum: a6bd4eaefe7ab9137deff7a2b29dd4f7dc02f4be00afce75b4ee5eec1b06a1b0253cf46cb326db84d960144358ddc7df75f9cefc18207ade7bdb3f2bc60bbbfd
+  checksum: df5361e892cadf73f0bfad2b34f3609809465c4ba1c8f3f95b2650e8a40c366c78a1a99c5e4f0eafc2acd33a85a9660d834690bb6331ef11bc1c064f526cd4a8
   languageName: node
   linkType: hard
 
@@ -3619,10 +3614,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "tslib@npm:2.3.1"
-  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
+"tslib@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "tslib@npm:2.4.0"
+  checksum: 8c4aa6a3c5a754bf76aefc38026134180c053b7bd2f81338cb5e5ebf96fefa0f417bff221592bf801077f5bf990562f6264fecbc42cd3309b33872cb6fc3b113
   languageName: node
   linkType: hard
 
